@@ -1,8 +1,5 @@
 body {
     margin: -8px;
-    font-size: 11px;
-    font-family: Arial;
-    font-weight: bold;
     
   }
   
@@ -89,7 +86,7 @@ body {
     
     .menu a {
         text-decoration: none;
-        font-size: 1.5rem;
+
         padding: 0.5rem;
     }
     
@@ -138,10 +135,6 @@ body {
           }
 
 
-
-          html {
-            font-size: 1em;
-        }
         
         .boutonBurger {
             display: none;
@@ -176,7 +169,7 @@ body {
 
     border-radius: 5px;
     padding: 16px;
-    font-size: 160%; 
+
     text-align: center;
     transition-duration: .5s;
   }
@@ -186,7 +179,7 @@ body {
 
     border-radius: 5px;
     padding-top: 26px;
-    font-size: 140%; 
+
     text-align: center;
     transition-duration: 1s;
   }

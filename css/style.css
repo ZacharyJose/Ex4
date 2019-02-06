@@ -5,9 +5,6 @@ h1, h2, h3 {
 
 body {
   margin: -8px;
-  font-size: 11px;
-  font-family: Arial;
-  font-weight: bold;
 }
 
 .sidebar {
@@ -118,7 +115,6 @@ body {
 
 .menu a {
   text-decoration: none;
-  font-size: 1.5rem;
   padding: 0.5rem;
 }
 
@@ -156,9 +152,6 @@ body {
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
         grid-template-areas: "header  header  sidebar2" "sidebar content sidebar2" "sidebar  footer  sidebar2";
-  }
-  html {
-    font-size: 1em;
   }
   .boutonBurger {
     display: none;
@@ -202,7 +195,6 @@ body {
 .box {
   border-radius: 5px;
   padding: 16px;
-  font-size: 160%;
   text-align: center;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
@@ -211,7 +203,6 @@ body {
 .box:hover {
   border-radius: 5px;
   padding-top: 26px;
-  font-size: 140%;
   text-align: center;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
@@ -269,5 +260,32 @@ body {
 .sidebar2 {
   background-color: white;
   color: #444;
+}
+
+body {
+  font-size: 11px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.menu a {
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 1em;
+  }
+}
+
+.box {
+  border-radius: 5px;
+  padding: 16px;
+  font-size: 160%;
+  text-align: center;
+}
+
+.box:hover {
+  font-size: 140%;
 }
 /*# sourceMappingURL=style.css.map */
