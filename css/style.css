@@ -218,7 +218,7 @@ body {
 }
 
 body {
-  background-color: beige;
+  background-color: #3ba567;
 }
 
 .wrapper {
@@ -269,5 +269,32 @@ body {
 .sidebar2 {
   background-color: white;
   color: #444;
+}
+
+body {
+  font-size: 11px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.menu a {
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 1em;
+  }
+}
+
+.box {
+  border-radius: 5px;
+  padding: 16px;
+  font-size: 160%;
+  text-align: center;
+}
+
+.box:hover {
+  font-size: 140%;
 }
 /*# sourceMappingURL=style.css.map */
